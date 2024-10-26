@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <div className="ivan-the-dev-page-pill">{children}</div>
       </body>
     </html>
   );
