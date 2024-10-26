@@ -11,3 +11,5 @@ My portfolio has different pages. So for most of the part, the annoying trend wa
 This problem, even though having some hacks to mitigate it, made me realize that switching frameworks would provide a longer-term solution. So I have decided to switch to NextJS.
 
 NextJS comes with file-based routing out-of-the-box while having valuable SEO features that can help improve the portfolio’s visibility.
+
+Many would say that I should just migrate to NextJS in the same legacy directory but switching to file-based routing inside that directory would be hectic compared to if I just spin up a new project.
