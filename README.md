@@ -8,8 +8,8 @@ My [legacy portfolio](https://github.com/chengivan2/ivan-portfolio) is built wit
 
 My portfolio has different pages. So for most of the part, the annoying trend was that whenever a visitor tried to reload a page that wasn't the home page, it brought back a 404. Remember React applications are basically SPAs therefore, only one index.html is served by the server after build. Meaning that whenever you request the server for a page that isn't the home page (in my case, a visitor navigating to a "non-home" route then trying to reload it), it's not surprising that the server would go "Huh?" then proceed to serve you a 404. This is because the server doesn’t “see” any file for that route.
 
-This problem, even though having some hacks to mitigate it, made me realize that switching frameworks would provide a longer-term solution. So I have decided to switch to NextJS.
+This problem, even though having some hacks to mitigate it, made me realize that switching frameworks would provide a longer-term solution. So I have decided to switch to Next.js.
 
-NextJS comes with file-based routing out-of-the-box while having valuable SEO features that can help improve the portfolio’s visibility.
+Next.js comes with file-based routing out-of-the-box while having valuable SEO features that can help improve the portfolio’s visibility.
 
-Many would say that I should just migrate to NextJS in the same legacy directory but switching to file-based routing inside that directory would be hectic compared to if I just spun up a new project.
+Many would say that I should just migrate to Next.js in the same legacy directory but switching to file-based routing inside that directory would be hectic compared to if I just spun up a new project.
